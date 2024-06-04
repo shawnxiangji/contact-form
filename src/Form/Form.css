@@ -1,0 +1,20 @@
+form {
+  label {
+    @apply text-grey-darker;
+  }
+  label.required {
+    @apply after:content-['*'] after:text-green-medium after:ml-2;
+  }
+  .input-text {
+    @apply h-12;
+  }
+  .input-text,
+  .input-textarea {
+    @apply w-full px-4 bg-white text-grey-darker border-1 border-grey-medium rounded-lg hover:border-1 hover:border-green-medium focus:border-green-medium;
+    transition: border 0.2s ease;
+  }
+
+  .button-radio {
+    @apply flex flex-row justify-start items-center gap-2 text-grey-darker border-1 border-grey-medium rounded-lg;
+  }
+}
