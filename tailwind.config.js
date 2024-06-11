@@ -10,6 +10,9 @@ export default {
         "grey-darker": "hsl(187, 24%, 22%)",
         "error-red": "hsl(0, 66%, 54%)",
       },
+      fontFamily: {
+        karla: "Karla",
+      },
       borderWidth: {
         1: "1px",
       },

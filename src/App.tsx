@@ -1,6 +1,8 @@
 import {} from "react";
 import "./App.css";
 import Form from "./Form/Form";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
@@ -13,8 +15,20 @@ function App() {
         <a href="https://www.frontendmentor.io?ref=challenge">
           Frontend Mentor
         </a>
-        . Coded by <a href="#">Your Name Here</a>.
+        . Coded by <a href="#">Shawn Ji</a>.
       </div>
+
+      <ToastContainer
+      // autoClose={5000}
+      // hideProgressBar={false}
+      // newestOnTop={false}
+      // closeOnClick
+      // rtl={false}
+      // pauseOnFocusLoss
+      // draggable
+      // pauseOnHover
+      // theme="colored"
+      />
     </div>
   );
 }
