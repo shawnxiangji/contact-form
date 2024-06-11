@@ -79,6 +79,7 @@ const Form = () => {
           closeButton: false,
         }
       );
+      formik.resetForm();
     },
     validateOnChange: false,
   });

@@ -15,6 +15,6 @@ form {
   }
 
   .button-radio {
-    @apply flex flex-row justify-start items-center gap-2 text-grey-darker border-1 border-grey-medium rounded-lg;
+    @apply flex flex-row justify-start items-center gap-2 text-grey-darker border-1 border-grey-medium rounded-lg hover:border-1 hover:border-green-medium focus:border-green-medium;
   }
 }
